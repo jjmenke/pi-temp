@@ -9,7 +9,7 @@ import traceback
 
 
 def read_config():
-    with open('/home/pi/dht22.yml') as config_file:
+    with open('/home/pi/pi-temp/dht22.yml') as config_file:
         return yaml.load(config_file)
 
 

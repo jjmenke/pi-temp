@@ -5,7 +5,7 @@ After=influxdb.service
 [Service]
 Type=simple
 User=pi
-ExecStart=/usr/bin/python3 /home/pi/dht22.py
+ExecStart=/usr/bin/python3 /home/pi/pi-temp/dht22.py
 Restart=always
 
 [Install]
